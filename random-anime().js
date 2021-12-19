@@ -1,4 +1,4 @@
-function random_anime() {
+function random_show() {
   let container = document.getElementsByClassName("ddmcc");
   container = container[0];
   items = container.getElementsByTagName("a");
@@ -7,3 +7,4 @@ function random_anime() {
   let URL = item.getAttribute("href");
   window.open(URL, '_blank');
 }
+random_show();
