@@ -1,7 +1,7 @@
 let x = document.getElementsByName("ur")
 let outerFrame = document.getElementsByClassName("lister-item mode-advanced")
 for (let i = 0 ; i < x.length ; i++) {
-  if (console.log(x[i].innerHTML)!="Rate this"){
+  if (x[i].innerHTML!="Rate this"){
     outerFrame.item(i).remove()
   }
 }
